@@ -1,2 +1,0 @@
-
-log4j.rootLogger=info, stdout, Rlog4j.appender.stdout=org.apache.log4j.ConsoleAppenderlog4j.appender.stdout.layout=org.apache.log4j.PatternLayoutlog4j.appender.stdout.layout.ConversionPattern=[nesty] %d %-5p [%t] %c | %m%nlog4j.logger.org.sql2o=debug# write to filelog4j.appender.R=org.apache.log4j.DailyRollingFileAppenderlog4j.appender.R.Append=truelog4j.appender.R.File=logs/nesty.loglog4j.appender.R.DatePattern='.'yyyy-MM-ddlog4j.appender.R.layout=org.apache.log4j.PatternLayoutlog4j.appender.R.layout.ConversionPattern=[nesty] %d %-5p [%t] %c | %m%n
